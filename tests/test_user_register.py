@@ -3,7 +3,6 @@ from lib.assertions import Assertions
 from lib.my_requests import MyRequests
 
 class TestUserRegister(BaseCase):
-
     def test_create_user_successfully(self):
         data = self.prepare_registration_data()
 
